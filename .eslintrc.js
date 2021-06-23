@@ -1,11 +1,5 @@
 module.exports = {
     extends: ["airbnb-base","plugin:prettier/recommended"],
-    parser: "babel-eslint",
-    settings: {
-      react: {
-        version: "detect",
-      },
-    },
     rules: {
       "no-unused-vars": "error",
       "arrow-body-style": "off",
